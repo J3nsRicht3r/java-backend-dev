@@ -21,7 +21,7 @@ import java.util.Objects;
 import java.util.Set;
 
 /**
- * Entity representing a chat channel access entry in the database
+ * Entity representing a net.cryptic_game.backend.endpoints.chat channel access entry in the database
  *
  * @since 0.3.0
  */

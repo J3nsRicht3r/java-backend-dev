@@ -12,7 +12,7 @@ import java.util.Objects;
 import java.util.UUID;
 
 /**
- * Entity representing a chat channel entry in the database
+ * Entity representing a net.cryptic_game.backend.endpoints.chat channel entry in the database
  *
  * @since 0.3.0
  */

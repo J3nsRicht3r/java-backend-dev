@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * Entity representing a chat message entry in the database
+ * Entity representing a net.cryptic_game.backend.endpoints.chat message entry in the database
  *
  * @since 0.3.0
  */
