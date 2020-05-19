@@ -12,7 +12,7 @@ import java.util.UUID;
 
 public class ChatMessageEndpoint extends ApiEndpointCollection {
     public ChatMessageEndpoint() {
-        super("chat_massage", "massage");
+        super("chat_message", "message");
     }
 
     @ApiEndpoint("send_message")
