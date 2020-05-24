@@ -17,7 +17,6 @@ public class ChatMessageEndpoint extends ApiEndpointCollection {
 
     @ApiEndpoint("send_message")
     public ApiResponse send(@ApiParameter(value = "user_id", special = ApiParameterSpecialType.USER) UUID userId,
-                            @ApiParameter("name") String name,
                             @ApiParameter("channel_id") UUID channelId,
                             @ApiParameter("message_content") String messageContent) {
         User user = User.getById(userId);

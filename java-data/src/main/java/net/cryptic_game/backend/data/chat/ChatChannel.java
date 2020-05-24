@@ -45,7 +45,8 @@ public class ChatChannel extends TableModelAutoId implements JsonSerializable {
     public static void removeChannel(final UUID id) {
         final ChatChannel channel = getById(id);
         if (channel != null) {
-            ChatChannelAccess.getMembers(channel).forEach(user -> ChatChannelAccess.leave(user, channel, null));
+
+            ChatChannelAccess.getMembers(channel).forEach(ChatChannelAccess::delete);
             channel.delete();
         }
     }
